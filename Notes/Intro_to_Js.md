@@ -197,3 +197,14 @@ The main motto is DRY (Dont Repeat Yourself)
     console.log(double(3));
     console.log(double1(4));
     ```
+## Copy by Value & Reference
+  ### By Value
+  ```js
+  var a1 = [100,200];
+  var a2 = [...a1]; // Spread Operator
+  var a3 = [a1] // Array in an array (Nesterd Arrays)
+  ```
+  ### By Reference
+  ```js
+  var t1 = [1,2,3];
+  var t2 = t1; // t2 is pointing to the Address of t1
