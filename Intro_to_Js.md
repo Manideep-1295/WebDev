@@ -172,28 +172,28 @@ The main motto is DRY (Dont Repeat Yourself)
 - Normal Function
 - Arrow Function
 - Anonymous Function 
-#### Parameter Vs Argument
-  Argument - The value passed to the function while calling  
-   Parameter - The value passed to the function while declaring 
-   ### Normal Function
-  A function which will written using the keyword 'function func_name()'.
-  ```js
-    function mul(n){
-        return n*2; //return is compulsory otherwise it is undefined
+  #### Parameter Vs Argument
+    Argument - The value passed to the function while calling  
+    Parameter - The value passed to the function while declaring 
+    ### Normal Function
+    A function which will written using the keyword 'function func_name()'.
+    ```js
+      function mul(n){
+          return n*2; //return is compulsory otherwise it is undefined
+      }
+      console.log(mul(5));
+    ```
+    - 2 ways to exit the function 
+    1. With 'return' keyword 
+    2. After executing all the lines it will automatically end 
+    
+    ### Arrow Function
+    ```js
+    //Arrow Funtions
+    const double = (n) =>{ //longer version
+    return n*2;
     }
-    console.log(mul(5));
-  ```
-  - 2 ways to exit the function 
-  1. With 'return' keyword 
-  2. After executing all the lines it will automatically end 
-  
-  ### Arrow Function
-  ```js
-  //Arrow Funtions
-  const double = (n) =>{ //longer version
-  return n*2;
-  }
-  const double1 =(n) => n*2; // shorter version
-  console.log(double(3));
-  console.log(double1(4));
-  ```
+    const double1 =(n) => n*2; // shorter version
+    console.log(double(3));
+    console.log(double1(4));
+    ```
