@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- Elements/Tags -->
+<html lang="en">
+  <head>
+    <!-- Attributes -->
+    <!-- UTF-8 supports emojis -->
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Changes the tab name -->
+    <title>First HTML Page</title>
+    <style>
+      /* Element selector */
+      h2 {
+        color: blue;
+      }
+      /* Class Selector 
+
+
+        It has advantage as we can re-use the code*/
+      .fun {
+        color: red;
+      }
+
+      #fun2 {
+        color: green;
+      }
+      .image {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+        background-color: aqua;
+      }
+      .banner {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+      }
+      .container {
+        width: 100%;
+        height: 500px;
+      }
+      .text {
+        width: 100%;
+        height: 350px;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      class="image"
+      src="https://static.vecteezy.com/system/resources/thumbnails/001/416/705/small/html5-emblem-orange-shield-and-white-text-vector.jpg"
+      alt=""
+    />
+    <img src="" alt="" />
+    <div class="text">
+      <h1><center>Lets learn about the Header tags</center></h1>
+      <h1 class="fun">Hello World 👋🏻 - H1</h1>
+      <h2>Hello World 👋🏻 - H2</h2>
+      <h3>Hello World 👋🏻 - H3</h3>
+      <h4 class="fun">Hello World 👋🏻 - H4</h4>
+      <h5 id="fun2">Hello World 👋🏻 - H5</h5>
+      <h6>Hello World 👋🏻 - H6</h6>
+    </div>
+    <div class="container">
+      <h1>Image Properties</h1>
+      <img
+        class="banner"
+        src="https://plus.unsplash.com/premium_photo-1663045910051-021e32bc2678?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+      />
+    </div>
+    <!-- <h7>Hello World 👋🏻</h7> -->
+    <script>
+      var student = {
+        name: "Mani",
+        age: 21,
+      };
+      //Dot Syntax
+      console.log(student.name);
+      // Box Syntax
+      console.log(student["age"]);
+
+      const t1 = [40, 50, 60];
+      const t2 = t1;
+      const t3 = [40, 50, 60];
+
+      t1.push(90);
+      t2.push(80);
+      t3.push(70);
+
+      console.log(t1);
+      console.log(t2);
+      console.log(t3);
+    </script>
+  </body>
+</html>
+<!-- Even if we write the tags outside of html tag, it will works -->
+<h1>
+  HTML forgived this line
+
+  <!-- Visit Computerfile site -->
+</h1>
