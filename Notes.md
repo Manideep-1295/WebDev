@@ -35,8 +35,14 @@
 To reduce the size ann maintain the quality - webp format helps alot.  
   
 ## To Analyze the Page Load and SEO ratings
-![Analyzing the Page load](image-2.png)
+![Analyzing the Page load](C:/Users/Manideep.Kothapalli/Desktop/Mani/HTML/Images/image-2.png)
 
 >The concept of SVG(Scalable Vector Graphics) based on the equation of circle.  
 x^2 + y^2 = r^2
 
+## 5 pillars of Code Quality
+1. Readability - 75% you will be reading the codes
+2. Maintainability - Code Debt //Task postponement continuously
+3. Extensibility
+4. Testability
+5. Performance
