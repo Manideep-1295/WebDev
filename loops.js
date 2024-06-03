@@ -72,7 +72,8 @@ const employes = [
 let prom_emp = [];
 for (let emp of employes) {
   if (emp.grade >= 80) {
-    prom_emp.push({ id: emp.id, status: "promoted" });
+    // prom_emp.push({ id: emp.id, status: "promoted" });
+    prom_emp.push({ ...emp , status: "promoted" });
   }
 }
 console.log(prom_emp);

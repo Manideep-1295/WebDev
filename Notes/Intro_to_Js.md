@@ -199,6 +199,8 @@ The main motto is DRY (Dont Repeat Yourself)
     ```
 ## Copy by Value & Reference
   ### By Value
+    1. Spread Operator
+    2. Slice function
   ```js
   var a1 = [100,200];
   var a2 = [...a1]; // Spread Operator

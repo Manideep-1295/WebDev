@@ -15,6 +15,13 @@
 
 - DataBase
 
+## Why 3-Layer
+- Loosely coupled
+  - Means having flexibility of different FE or BE or DB.
+- Performance agnostic
+- Micro-service architechture
+  - Netflix is leading company in this.
+
 ## Selectors :
 ```css
     /* Element selector */
